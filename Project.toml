@@ -1,0 +1,13 @@
+name = "Simpson"
+uuid = "bc5b9e2b-111d-49ac-99f0-97d83f6fedcb"
+authors = ["You Wu"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
