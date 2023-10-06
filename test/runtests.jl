@@ -1,6 +1,4 @@
 using Simpson
-using Test
+using ReferenceTests
 
-@testset "Simpson.jl" begin
-    # Write your tests here.
-end
+include("test_integration1D.jl")
