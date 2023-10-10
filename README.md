@@ -14,19 +14,19 @@ Simpson.jl
 ├── Manifest.toml
 ├── Project.toml
 ├── README.md
-├── res         #
+├── res         
 │   ├── Manifest.toml
 │   ├── Project.toml
-│   ├── prologue.jl
-│   ├── wrap.jl
-│   └── wrap.toml
-├── src         #
-│   ├── api.jl
-│   └── Simpson.jl
-└── test        # 
+│   ├── prologue.jl    # commands to be added in resulting api.jl
+│   ├── wrap.jl        # Clang.jl generates src/api.jl from it
+│   └── wrap.toml      # specification for autogeneration
+├── src         
+│   ├── api.jl         # low-level Julia API
+│   └── Simpson.jl     # high-level Julia API
+└── test        
     ├── assets
-    ├── runtests.jl
-    └── test_integration1D.jl
+    ├── runtests.jl    # includes sub-tests
+    └── test_integration1D.jl # an unit test
 ```
 
 
